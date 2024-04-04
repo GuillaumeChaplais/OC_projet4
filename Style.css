@@ -1,1 +1,12 @@
 /* --- General --- */
+
+/* Actions interactives */
+
+.btn {
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background: linear-gradient(#FF79DA, #9356DC);    
+}
+
+/* --- Header --- */
