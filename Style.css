@@ -1,4 +1,7 @@
 /* --- General --- */
+
+
+
 /* Actions interactives */
 .btn {
   width: 186px;
@@ -10,3 +13,27 @@
 }
 
 /* --- Header --- *//*# sourceMappingURL=Style.css.map */
+
+/* Pages restaurant */
+.menu {
+background-color: #f6f6f6;
+border-radius: 40px 40px 0px 0px;
+width: 375px;
+}
+
+.card {
+  background-color: white;
+  width: 349px;
+  height: 69px;
+  border-radius: 15px;
+  gap: 12px;
+}
+
+/* -- Footer -- */
+
+footer {
+  background-color: #353535;
+  color: white;
+  width: 375px;
+  height: 186px;
+}
