@@ -1,4 +1,15 @@
 /* --- General --- */
+/* Actions interactives */
+.btn {
+  width: 186px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  background: linear-gradient(#FF79DA, #9356DC);
+}
+
+/* --- Header --- */
 body {
   width: 375px;
   background-color: #f6f6f6;
@@ -27,7 +38,6 @@ header {
   justify-content: center;
 }
 
-
 /* Actions interactives */
 .btn {
   width: 186px;
@@ -38,19 +48,19 @@ header {
   background: linear-gradient(#FF79DA, #9356DC);
 }
 
-/* --- Header --- *//*# sourceMappingURL=Style.css.map */
-
+/* --- Header --- */ 
 /* Pages restaurant */
 .photo-carte {
   width: 375px;
   height: 275px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .menu {
-background-color: #f6f6f6;
-border-radius: 40px 40px 0px 0px;
-width: 375px;
+  background-color: #f6f6f6;
+  border-radius: 40px 40px 0px 0px;
+  width: 375px;
 }
 
 .card {
@@ -65,11 +75,11 @@ width: 375px;
   display: flex;
   justify-content: space-around;
 }
-/* -- Footer -- */
 
+/* -- Footer -- */
 footer {
   background-color: #353535;
   color: white;
   width: 375px;
   height: 186px;
-}
+}/*# sourceMappingURL=Style.css.map */

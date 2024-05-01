@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Style.css">
     <title>Ohmyfood</title>
+    <script src="https://kit.fontawesome.com/3055f49ac7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -12,22 +13,25 @@
 <!-- HEADER -->
 
     <header>
-        <div>
-            <img class="banner-omf" src="Images et textes Ohmyfood/images/logo/ohmyfood.png" alt="banner-Ohmyfood">
-        </div>
-            <input class="search-bar" type="search" placeholder="Paris, Belleville">
+        <img class="banner-omf" src="Images et textes Ohmyfood/images/logo/ohmyfood.png" alt="banner-Ohmyfood">
+            <form method="post" action="#" class="location-bar">
+                <div>
+                    <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
+                </div>
+                <label for="rechercher-ville"></label>
+                <input class="search-bar" type="search" placeholder="Paris, Belleville">
+            </form>
     </header>
 
 <!-- MAIN -->
 
     <main>
-        <h1>Réservez le menu qui vous convient</h1>
+        <div>
+            <h1>Réservez le menu qui vous convient</h1>
             <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
 
             <div class="btn-place">   
-                <button class="btn">
-                    <p>Explorez nos restaurants</p>
-                </button>
+                <a href="#restaurants" class="">Explorez nos restaurants</a>
             </div>
 
         <h2>Fonctionnement</h2>
@@ -37,10 +41,8 @@
 
                     </i>
                         <button>
-                            <i>
-                            </i>
-                                <p>Choisissez un restaurant
-                                </p>
+                            <i class="fa-solid fa-mobile-screen-button" style="color: #7e7e7e;"></i>
+                            <p>Choisissez un restaurant</p>      
                         </button>
                 </div>
                 <div>
@@ -48,8 +50,7 @@
 
                     </i>
                         <button>
-                            <i>
-                            </i>
+                            <i class="fa-solid fa-list-ul" style="color: #7e7e7e;"></i>
                                 <p>Composez votre menu
                                 </p>
                         </button>
@@ -59,16 +60,15 @@
 
                     </i>
                         <button>
-                            <i>
-                            </i>
+                            <i class="fa-solid fa-store" style="color: #9356dc;"></i>
                                 <p>Dégustez au restaurant
                                 </p>
                         </button>
                 </div>
             </div>
 
-        <h2>Restaurants</h2>
-            <section>
+            <section id="restaurants">
+            <h2>Restaurants</h2>
                 <a href="Menu - La palette du goût.html">
                     <article>
                         <img class="restaurants" src="Images et textes Ohmyfood/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût">

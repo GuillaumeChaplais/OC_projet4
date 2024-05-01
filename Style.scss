@@ -13,3 +13,78 @@
 
 
 /* --- Header --- */
+
+body {
+    width: 375px;
+    background-color: #f6f6f6;
+  }
+  
+  header {
+    height: 63px;
+  }
+  
+  .restaurants {
+    width: 346px;
+    height: 231px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+  }
+  
+  .banner-omf {
+    width: 197px;
+    height: 36px;
+    padding: 14px;
+    padding-left: 89px;
+  }
+  
+  .btn-place {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  /* Actions interactives */
+  .btn {
+    width: 186px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background: linear-gradient(#FF79DA, #9356DC);
+  }
+  
+  /* --- Header --- *//*# sourceMappingURL=Style.css.map */
+  
+  /* Pages restaurant */
+  .photo-carte {
+    width: 375px;
+    height: 275px;
+    object-fit: cover;
+  }
+  
+  .menu {
+  background-color: #f6f6f6;
+  border-radius: 40px 40px 0px 0px;
+  width: 375px;
+  }
+  
+  .card {
+    background-color: white;
+    width: 349px;
+    height: 69px;
+    border-radius: 15px;
+    gap: 12px;
+  }
+  
+  .content-card {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* -- Footer -- */
+  
+  footer {
+    background-color: #353535;
+    color: white;
+    width: 375px;
+    height: 186px;
+  }
