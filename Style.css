@@ -23,7 +23,8 @@ header {
   width: 346px;
   height: 231px;
   border-radius: 15px 15px 0px 0px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .banner-omf {
