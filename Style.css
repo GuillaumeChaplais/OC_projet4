@@ -1,22 +1,28 @@
 /* --- General --- */
 /* Actions interactives */
 .btn {
-  width: 186px;
   height: 50px;
   border: none;
   border-radius: 25px;
   color: white;
   background: linear-gradient(#FF79DA, #9356DC);
 }
-
-/* --- Header --- */
-body {
-  width: 375px;
-  background-color: #f6f6f6;
+.btn .btn__accueil {
+  width: 286px;
+}
+.btn .btn__accueil--menu {
+  width: 186px;
 }
 
-header {
-  height: 63px;
+.body {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  font-family: Roboto, sans-serif;
+}
+
+.hdr-accueil {
+  height: 113px;
 }
 
 .restaurants {
@@ -28,25 +34,16 @@ header {
 }
 
 .banner-omf {
+  display: flex;
   width: 197px;
   height: 36px;
-  padding: 14px;
-  padding-left: 89px;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-place {
   display: flex;
   justify-content: center;
-}
-
-/* Actions interactives */
-.btn {
-  width: 186px;
-  height: 50px;
-  border: none;
-  border-radius: 25px;
-  color: white;
-  background: linear-gradient(#FF79DA, #9356DC);
 }
 
 /* --- Header --- */ 
