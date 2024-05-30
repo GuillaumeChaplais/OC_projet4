@@ -12,15 +12,15 @@
 
 <!-- HEADER -->
 
-    <header>
+    <header class="navbar">
         <img class="banner-omf" src="Images et textes Ohmyfood/images/logo/ohmyfood.png" alt="banner-Ohmyfood">
-            <form method="post" action="#" class="location-bar">
-                <div>
-                    <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
+            <form class="barre-recherche" method="post" action="#">
+                <div class="icone-loc">
+                    <i class="fa-solid fa-location-dot"></i>
                 </div>
                 <label for="rechercher-ville"></label>
-                <input class="search-bar" type="search" placeholder="Paris, Belleville">
-                <button>Rechercher</button>
+                <input type="search" placeholder="Paris, Belleville">
+                <button class="recherche">Rechercher</button>
             </form>
     </header>
 
@@ -31,7 +31,7 @@
             <h1>Réservez le menu qui vous convient</h1>
             <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
 
-            <a href="#restaurants" class="">Explorez nos restaurants</a>
+            <a href="#restaurants" class="btn btn__accueil">Explorez nos restaurants</a>
         </section>
 
         <section>
@@ -40,17 +40,17 @@
             <ol>
                 <!-- code couleur en css -->
                 <li>
-                    <i class="fa-solid fa-mobile-screen-button" style="color: #7e7e7e;"></i>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
                     "Choisissez un restaurant"
                 </li>      
                         
                 <li>
-                    <i class="fa-solid fa-list-ul" style="color: #7e7e7e;"></i>
+                    <i class="fa-solid fa-list-ul"></i>
                     "Composez votre menu"
                 </li>
 
                 <li>
-                    <i class="fa-solid fa-store" style="color: #9356dc;"></i>
+                    <i class="fa-solid fa-store"></i>
                     "Dégustez au restaurant"
                 </li>
             </ol>
@@ -124,11 +124,11 @@
     <footer>
             <a href="#">
             <!-- icone à rajouter -->
-                <i></i>
+            <i class="fa-solid fa-utensils"></i>
                 "Proposer un restaurant"
             </a>
             <a href="#">
-                <i></i>
+                <i class="fa-solid fa-handshake-angle"></i>
                 "Devenir partenaire"
             </a>
             <a href="#">

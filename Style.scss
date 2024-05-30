@@ -1,41 +1,59 @@
-/* --- General --- */
-
-/* Actions interactives */
-
-.btn {
-    width: 186px;
-    height: 50px;
-    border: none;
-    border-radius: 25px;
-    color: white;
-    background: linear-gradient(#FF79DA, #9356DC); 
-}   
-
-
-/* --- Header --- */
-
-body {
-    width: 375px;
-    background-color: #f6f6f6;
+.body {
+    display: flex;
+    flex-direction: column;
+    font-family: "roboto", sans-serif;
   }
   
-  header {
-    height: 63px;
-  }
-  
-  .restaurants {
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banner-omf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    }
+
+.barre-recherche {
+  background: #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+}
+
+.icone-loc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 16px;
+  color: #353535;
+  margin-right: 15px;
+}
+
+input {
+  border: none;
+  background-color: #eaeaea;
+  color: #353535;
+  outline: none;
+}
+
+.recherche {
+  display: none;
+}
+
+.restaurants {
     width: 346px;
     height: 231px;
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
   }
   
-  .banner-omf {
-    width: 197px;
-    height: 36px;
-    padding: 14px;
-    padding-left: 89px;
-  }
+  
   
   .btn-place {
     display: flex;
@@ -45,12 +63,20 @@ body {
   
   /* Actions interactives */
   .btn {
-    width: 186px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     height: 50px;
     border: none;
     border-radius: 25px;
     color: white;
     background: linear-gradient(#FF79DA, #9356DC);
+      .btn__accueil {
+    width: 286px;
+      }
+        .btn__accueil--menu {
+    width: 186px;
+      }
   }
   
   /* --- Header --- *//*# sourceMappingURL=Style.css.map */
