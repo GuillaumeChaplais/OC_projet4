@@ -46,6 +46,18 @@ input {
   display: none;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.presentation {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #f6f6f6;
+}
 .restaurants {
     width: 346px;
     height: 231px;
